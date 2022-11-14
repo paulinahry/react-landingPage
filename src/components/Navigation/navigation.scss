@@ -1,0 +1,88 @@
+nav.main-navi-ctn{
+    background: #0D091E;
+    height: auto;
+    margin-bottom: 10px;
+    display: flex;
+    font-size: 1rem;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+     .login-ctn {
+        margin: 10px;
+        justify-content: end;
+        .login-btn{
+               background-color: #0D091E;
+               color: white;
+               border: 1px solid #5E3C58;
+               width: 100px;
+               height: 30px;
+               border-radius: 10px;
+               cursor: pointer;
+   
+           }
+     }
+    
+    .ul-main-nav{
+        display: flex;
+        gap: 15px;
+        flex-direction: row ;
+        margin: 10px 15px;
+        background-color: #0D091E;;
+        padding-bottom: 15px;
+        align-self: center;
+        text-align: center;
+    }
+
+    .omnireal-logo{
+        color: white;
+        justify-self: flex-start;
+        cursor: pointer;
+        align-items: center;
+        margin: 10px 20px;
+    }
+}
+
+// -----------------------BURGER MENU------------------------
+
+.burger-menu{
+    display: none;
+    }
+
+.burger-menu-icon {
+    height: 50px;
+    width: 40px;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    right: 3%;
+}
+
+// --------------------MEDIA QUERIES
+@media screen and (max-width: 900px) {
+  
+    .nav-elements{
+        display: none;
+    }
+    .burger-menu{
+        display: flex;
+        .main-nav{
+            position: absolute;
+            top: 45px;
+            right: 0;
+            width: 170px;
+            text-align: center;
+
+            .ul-main-nav{
+                gap: 15px;
+                margin: 10px 15px;
+                display: flex;
+                flex-direction: column ;
+                justify-content: center;
+
+        }
+        }
+    }
+
+
+}
