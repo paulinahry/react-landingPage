@@ -11,9 +11,9 @@ General exercise of react knowledge with:
 
 Screens: 
 
-![Start page:](./assets/screens/start_page.png)
+![Start page:](./src/assets/screens/start_page.png)
 
-![Login, create account:](./assets/screens/login_out.png)
+![Login, create account:](./src/assets/screens/login_out.png)
 
 
 ToDo:
