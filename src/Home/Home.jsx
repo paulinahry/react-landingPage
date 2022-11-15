@@ -1,7 +1,7 @@
 //style
 import './home.scss'
 //components
-import Navigation from '../components/Navigation/Navigation'
+import Navigation from '../pages/Navigation/Navigation'
 import Heroimg  from '../assets/images/Heroimg.jpg'
 //Router
 import { Link } from 'react-router-dom'

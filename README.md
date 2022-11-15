@@ -4,11 +4,19 @@
 
 
 
+General exercise of react knowledge with:  
+- Routing
+- Login & logout with firebase authentication
+- UseContext, useState, useEffect exercise
+
+Screens: 
+
+![Start page:](./assets/screens/start_page.png)
+
+![Login, create account:](./assets/screens/login_out.png)
+
+
 ToDo:
-
 *media queries*, 
-
 *shopping card*, 
-
-*get started page umbauen*
-
+*get started page edit*

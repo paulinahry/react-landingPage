@@ -1,17 +1,17 @@
 import { Routes, Route } from "react-router-dom"
 
 
-//components
-import About from "./components/About/About"
+//pages
+import About from "./pages/About/About"
 import Home from "./Home/Home"
-import GetStarted from "./components/GetStarted/GetStarted"
-import Login from "./components/Login/Login"
-import Signup from "./components/Login/Signup"
+import GetStarted from "./pages/GetStarted/GetStarted"
+import Login from "./pages/Login/Login"
+import Signup from "./pages/Login/Signup"
 
 
 import './index.scss'
-import Navigation from "./components/Navigation/Navigation"
-import { AuthContextProvider } from "./components/context/AuthContext"
+import Navigation from "./pages/Navigation/Navigation"
+import { AuthContextProvider } from "./pages/context/AuthContext"
 
 function App() {
   return (
