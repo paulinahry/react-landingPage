@@ -1,4 +1,3 @@
-import {useState} from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import BurgerMenu from './BurgerMenu'
 import NavElemets from './NavElemets'
@@ -38,11 +37,10 @@ function Navigation() {
               <button className='login-btn'>Log in</button>
           </Link>
           }
-          
+
         </div>
 
         <BurgerMenu />
-
 
         <div className='nav-elements'>
           <NavElemets />

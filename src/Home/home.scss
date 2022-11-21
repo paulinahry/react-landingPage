@@ -1,6 +1,9 @@
 .hero {
     background-color: #0D091E;
-    display: flex;    
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    
     p{
         color: white;
         font-size: 10px;
@@ -11,8 +14,6 @@
         height: 200px;
         object-fit: cover;
         margin: 5px;
-        position: absolute;
-        right: 0;
         clip-path: polygon(0 0, 100% 0, 100% 100%, 46% 100%);
 
         
@@ -20,14 +21,12 @@
 
     .hero-headliner{
         background-color: rgba(0, 0, 0, 0.517);        
-        margin: 0 30% 10px 0;
         color: rgb(255, 255, 255);
-        position: absolute;
-        left: 5px;
-        right: 20%;
-        top: 10%;
         font-size: 18px;
         position: absolute;
+        h1{
+            margin: 5px;
+        }
         
       
         span{
@@ -48,3 +47,4 @@
     }
 
 }
+

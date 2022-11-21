@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html{
   $color-BLACK: #0D091E;
   $color-DEEP-PURPLE: #2F1E45;
@@ -27,3 +31,10 @@ a{
 ul li {
   list-style: none;
 }
+
+@media only screen and (min-width: 600px) {
+  main {
+     width: 60%;
+     margin: 0 auto;
+  }
+  }

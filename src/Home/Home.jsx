@@ -10,6 +10,7 @@ function Home() {
 
   return (
     <>
+   
 
       <main>
         <section className='hero'>
@@ -21,17 +22,10 @@ function Home() {
           <div className='hero-headliner'>
             <h1>Let's explore the world of the <span>virtual reality!</span></h1>
 
-            {/* <p>We help the future world create a new opportunity for all the people of the world. </p> */}
-
-
             <Link to='/getStarted'> <button 
             className='getStarted-btn'>Get started</button>
             </Link>
           
-          </div>
-          <div className="CTA-buttons">
-
-            
           </div>
 
         </section>      

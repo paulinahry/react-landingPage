@@ -7,17 +7,19 @@
     max-width: 500px;
     margin: 15px auto;
     padding: 15px;
+    border-radius: 0.7em;
     .meeting-ctn{
         width: 100%;
         display: flex;
         align-items: center;
+        justify-content: center;
         border: none;
         margin: 5px;
         p, h5{
             color: black;
         }
-      
-        input, option{
+        
+        input, option, select{
             margin: 0 auto;
             width: 80%;
             height: 2em;

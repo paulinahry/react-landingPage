@@ -97,20 +97,27 @@ function GetStarted() {
     }
     setShowData(true, data)
     console.log('confirmed: ' ,data);
+    return(
+    <div>
+      You're invited in {data.date} in {data.city}
+      {data}
+    
+    </div>
+    )
   }
 
 
   return (
 
-    <>
+    <main>
     <span>Welcome {user.email}</span>
     <h1>Set a free game trial with your friends!  </h1>
 
-    <h4>choose a date, town and number of your friends</h4>
+    <h4>Choose a date, town and number of your friends</h4>
       <section className="set-meeting">
         <div className='meeting-ctn'>
           <GoLocation className='login-icon-btn'/>
-          <label htmlFor="town">Choose town:</label>
+          <label htmlFor="town"></label>
           <select 
             onChange={handleChooseTown}
             name="town" id="town" >
@@ -159,7 +166,7 @@ function GetStarted() {
 
 
       </section>
-    </>
+    </main>
   )
 }
 
